@@ -1,0 +1,90 @@
+.sqr {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: solid black 1px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    background-image: url(../img/ac.jpg);
+}
+
+#sqrA {
+    background: url(../img/back_mantel.jpg);
+}
+
+#sqrB {
+    background-image: url(../img/back_mantel.jpg);
+    background-clip: content-box;
+}
+
+#sqrC {
+    background-image: url(../img/back_mantel.jpg);
+    background-size: 100% 100%;
+}
+
+#sqrD {
+    background-image: url(../img/back_mantel.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+
+}
+
+#sqrE{
+    background-image: url(../img/dh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sqrF{
+    background-image: url(../img/dh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+
+}
+#sqrG{
+    background-image: url(../img/dh_2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: white;
+}
+#sqrH{
+    background-image: url(../img/dh_3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: white;
+}
+#sqrI {
+    background: #2CA700;
+    background: -moz-linear-gradient(left, #2CA700 0%, #28982C 50% #306015 100%);
+    background: -webkit-linear-gradient(left, #2CA700 0%, #28982C 50%, #306015 100%);
+}
+
+#sqrJ {
+    background: #B48898;
+    background: -moz-linear-gradient(top, #B48898 0%, #984154 76%, #B60000 100%);
+    background: -webkit-linear-gradient(top, #B48898 0%, #984154 76%, #B60000 100%);
+}
+
+#sqrK {
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #2A982A 59%, #52A51D 100%);
+    background: -webkit-linear-gradient(top, #FFFFFF 0%, #2A982A 59%, #52A51D 100%);
+}
+
+#sqrL {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), #52A51D);
+    backdrop-filter: blur(2px);
+}
